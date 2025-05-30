@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import hexMe from "./assets/images/hexme.png"; 
 
 const HeroPic = () => {
   return (
@@ -12,7 +13,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="/images/hexme.png"
+        src={hexMe}
         alt="Yamini Vashisth"
         className="max-h-[400px] w-auto"
       />

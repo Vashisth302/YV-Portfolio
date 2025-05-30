@@ -3,33 +3,38 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
+import landingImage from "../../assets/images/Landing.png";
+import calcImage from "../../assets/images/calc.png";
+import designGenieImage from "../../assets/images/designgenie.png";
+import eventImage from "../../assets/images/event.jpeg";
+
 const projects = [
   {
     name: "Adventurous Travel",
     year: "June2024",
     align: "right",
-    image: "/images/Landing.png",
+    image: {landingImage},
     link: "https://vashisth302.github.io/Codsoft/Task%202/landing%20page.html",
   },
   {
     name: "Calculator",
     year: "July2024",
     align: "left",
-    image: "/images/calc.png",
+    image: {calcImage},
     link: "https://vashisth302.github.io/Codsoft/Task%203/Calculator.html",
   },
   {
     name: "DesignGenie",
     year: "Coming soon",
     align: "right",
-    image: "/images/designgenie.png",
+    image: {designGenieImage},
     link: "#",
   },
   {
     name: "StageSetGo",
     year: "Upcoming",
     align: "left",
-    image: "/images/event.jpeg",
+    image: {eventImage},
     link: "#",
   },
 ];

@@ -1,4 +1,4 @@
-import aboutMe from './assets/images/about-me.jpg'
+import aboutMe from "../../assets/images/about-me.jpg";
 const AboutMeImage = () => {
   return (
     <div className="h-[500px] w-[300px] relative">
